@@ -5,7 +5,7 @@ const Navbar = () => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <header className="main-header bg-black">
+    <header className="main-header" style={{backgroundColor:'#121212'}}>
       <div className="container align-items-center">
         <nav className="navbar navbar-expand-lg navbar-dark px-0">
           <a className="navbar-brand" href="/">
